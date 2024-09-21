@@ -1,0 +1,19 @@
+meme_dict = {
+            "CRINGE": "Qualcosa di eccezionalmente strano o imbarazzante",
+            "LOL": "Una risposta comune a qualcosa di divertente",
+            "SHEESH": "leggera disapprovazione",
+            "CREEPY": "spaventoso, inquietante",
+            "PARA": "preoccuparsi per qualcosa, paranoiarsi"
+            }
+
+parola = (input("inserisci una parola del web che non capisci")).upper()
+
+
+
+if parola in meme_dict.keys():
+    print(meme_dict[parola])
+    #if parola == "CRINGE":
+        #print("Qualcosa di eccezionalmente strano o imbarazzante")
+    
+else:
+    print("missa che hai scritto male")
